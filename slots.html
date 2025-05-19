@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Slots</title>
+<link rel="stylesheet" href="slots.css">
+<script src="walllet.js" defer></script>
+<script src="slots.js" defer></script>
+</head>
+<body>
+<header>
+<h1>Slots Hub</h1>
+<p>Simulate your luck with our spinner!</p>
+<div id="wallet">
+<p>Balance: $<span id="balance">1000</span></p>
+<div id="bet-controls">
+<p>Bet: $<span id="bet-display">50</span></p>
+<button onclick="decreaseBet()">-</button>
+<button onclick="increaseBet()">+</button>
+</div>
+</div>
+</header>
+<div class="slots-container">
+<div class="slot-machine">
+<div id="slot1" class="slot">
+<img src="https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/7-512.png" width="400" height="500">
+</div>
+<div id="slot2" class="slot">
+<img src="https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/7-512.png" width="400" height="500">
+</div>
+<div id="slot3" class="slot">
+<img src="https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/7-512.png" width="400" height="500">
+</div>
+</div>
+<button onclick="gira()">Spin!</button>
+<div id="result">Result: --</div>
+</div>
+</body>
+</html>
