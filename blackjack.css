@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: green;
+  color: white;
+  padding: 2rem;
+}
+.hand {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 1rem 0;
+}
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background: #ddd;
+}
+#result {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.chips button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: gold;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.chips button:hover {
+  background-color: orange;
+}
